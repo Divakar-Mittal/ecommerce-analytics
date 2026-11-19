@@ -1,0 +1,6 @@
+acquisition_channel,customers,avg_orders_per_customer,repeat_purchase_rate,avg_revenue_per_customer,avg_profit_per_customer
+Referral,1174,2.04,0.5324,317.32,94.29
+Email,844,1.95,0.5249,290.68,86.42
+Organic,2326,1.79,0.4652,271.02,81.08
+Paid Search,1977,1.57,0.391,246.4,73.07
+Social,1525,1.44,0.3325,225.66,66.64

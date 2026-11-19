@@ -1,0 +1,3 @@
+order_type,orders,delivered_rate,return_rate,aov,gross_margin,net_revenue
+Discounted,3434,0.8637,0.1048,150.01,0.2088,444931.22
+Full price,10492,0.8616,0.1077,180.82,0.3214,1634580.72

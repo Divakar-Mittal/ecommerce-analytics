@@ -30,8 +30,11 @@ def load() -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 if not DB_PATH.exists():
-    st.error("Warehouse not found. Run `python run_pipeline.py` first.")
-    st.stop()
+    # First run on a fresh machine or cloud host: build the warehouse from the raw CSVs in the repo.
+    from src import clean
+
+    with st.spinner("Building the data warehouse from raw data (first run only)..."):
+        clean.run()
 
 lines, rfm = load()
 
